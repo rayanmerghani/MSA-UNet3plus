@@ -1,2 +1,3 @@
 # MSA-UNet3+
-MSA-UNet3+: AI-powered Coronary DSA Segmentation Module
+MSA-UNet3+: Advanced Coronary DSA Segmentation Framework
+MSA-UNet3+ is an advanced deep learning framework for precise coronary artery segmentation in Digital Subtraction Angiography (DSA) images, addressing critical challenges like low contrast, noise, and class imbalance. The model integrates a Multi-Scale Dilated Bottleneck (MSD-Bottleneck) and Contextual Attention Fusion Module (CAFM) to enhance feature extraction and spatial-contextual understanding, alongside a novel Supervised Prototypical Contrastive Loss (SPCL) to improve handling of hard-to-classify samples. Evaluated on a clinical DSA dataset, it achieves state-of-the-art performance (Dice: 87.73%, F1-score: 87.78%) with significantly reduced boundary errors (ASD/ACD). While current limitations include sensitivity to severe noise/motion artifacts, future work will explore multimodal fusion (IVUS/OCT) and lightweight clinical deployment.
