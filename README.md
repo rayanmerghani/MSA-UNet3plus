@@ -6,4 +6,4 @@ The framework builds upon a hierarchical U-Net3+ backbone enhanced with three co
 
 The architecture uniquely preserves fine vessel details through multi-level skip connections while maintaining computational efficiency via bottleneck distillation. Future versions will address current limitations in noisy imaging conditions through IVUS/OCT fusion and edge-device optimization.
 
-References
+🚀 **
