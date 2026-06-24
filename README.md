@@ -13,12 +13,16 @@ If you find this repository useful, please consider citing the following paper:
 
 
 > ```bibtex
-> @article{rayan2025msa-unet3plus,
->   title={MSA-UNet3+: Multi-Scale Attention modified UNet3+ deep learning framework for robust coronary DSA image segmentation},
->   author={Rayan Merghani Ahmed, Adnan Iltaf, Bin Li and Shoujun Zhou},
->   journal={ },
->   year={2025}
-> }
+> @Article{ahmed2026msa,
+  author    = {Ahmed, Rayan Merghani and Iltaf, Adnan and Elmanna, Mohamed and Zhao, Gang and Li, Hongliang and Du, Yue and Li, Bin and Zhou, Shoujun},
+  journal   = {Biomedical Signal Processing and Control},
+  title     = {MSA-UNet3+: Multi-scale attention UNet3+ with new supervised prototypical contrastive loss for coronary DSA image segmentation},
+  year      = {2026},
+  pages     = {110539},
+  volume    = {123},
+  doi       = {10.1016/j.bspc.2026.110539},
+  publisher = {Elsevier},
+}
 > ```
 
 
