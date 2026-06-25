@@ -17,6 +17,9 @@ convolutional layers, while the decoders reconstruct the segmentation mask. This
 by capturing both fine-grained details and broader structural information.
 
 # Results
+<img width="1092" height="568" alt="result004a" src="https://github.com/user-attachments/assets/dea079a3-3922-416a-a83c-77bd824ef58d" />
+Fig. Comparison of average Dice Similarity Coefficient (DSC) values across six segmentation architectures using four loss functions. The proposed Dice+BCE+SPCL combination consistently achieves the highest performance for all models, demonstrating the additive benefit of Supervised Prototypical Contrastive Loss (SPCL). Numerical labels indicate absolute DSC (%) values and improvement margins.
+
 <img width="2687" height="1420" alt="result0" src="https://github.com/user-attachments/assets/b7ebb0d6-606e-4558-a1f6-a3f390d77cc7" />
 Fig. Qualitative results: The four rows show the four test samples, and the eight columns show the DSA images, which are (from left to right): original
 image, ground truth, proposed model results, BCU_Net, CMU_NeXt, DATrans_Unet, Isunetv1, and PMFS_Net. Yellow rectangles highlight false negatives, and green
